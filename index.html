@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals.html</title>
+    <link rel="stylesheet" href="Animals.css">
+    <script src="https://kit.fontawesome.com/f239cd745e.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div id="homepage-container" style="display: block">
+        <div id="welcome-heading">
+            <h1 id="welcome">Explore the animals of the world with eZoo!</h1>
+            <div id="guide-container">
+                <h3 id="choose-guide-message">choose guide
+                </h3>
+                <select id="voice-select">
+                </select>
+            </div>
+        </div>
+<div id="all-continents-wrapper">
+    <div class="continent-wrapper">
+        <img id="africa-image" class="continent-image" src="./Images/Africa.jpg">
+        <button id="africa-button" class="continent-button">Africa</button>
+    </div>
+
+    <div class="continent-wrapper">
+        <img id="antartica-image" class="continent-image" src="./Images/Antartica.jpg">
+        <button class="continent-button" id="antartica-button">Antarctica</button>
+    </div>
+
+    <div class="continent-wrapper">
+        <img id="asia-image" class="continent-image" src="./Images/Asia.jpg">
+        <button id="asia-button" class="continent-button">Asia</button>
+    </div>
+
+    <div class="continent-wrapper">
+        <img id="australia-image" class="continent-image" src="./Images/Australia.jpg">
+        <button id="australia-button" class="continent-button">Australia</button>
+    </div>
+
+    <div class="continent-wrapper">
+        <img id="europe-image" class="continent-image" src="./Images/Europe.jpg">
+        <button id="europe-button" class="continent-button">Europe</button>
+    </div>
+
+    <div class="continent-wrapper">
+        <img id="north-america-image" class="continent-image" src="./Images/North-America.jpg">
+        <button id="north-america-button" class="continent-button">North America</button>
+    </div>
+
+    <div class="continent-wrapper">
+        <img id="south-america-image" class="continent-image" src="./Images/South-America.jpg">
+        <button id="south-america-button" class="continent-button">South America</button>
+    </div>
+</div>
+<footer>
+    <div id="footer-container">
+        <H3 id="contact">Contact eZoo</H3>
+        <H3 id="copyright">©2020 Charles Fields</H3>
+    </div>
+</footer>
+</div>
+
+
+<div id="main-contact-container" style="display: none">
+    <h4 id="contact-home-button">HOME</h4>
+<div id="contact-container">
+    <form id="contact-form" action="https://formspree.io/xvowgbae" method="POST">
+        <div id="input-fields">
+            <input class="input" id="first-name" type="text" placeholder="first name" name="first">
+            <input class="input" id="last-name" type="text" placeholder="last name" name="last">
+            <input class="input" id="email" type="email" placeholder="email" name="email">
+            <input class="input" id="subject" type="text" placeholder="subject" name="subject">
+        </div>
+        <div id="message">
+            <textarea id="comments" placeholder="Comments" name="comments"></textarea>
+            <button id="send-button" type="submit">Send</button>
+        </div>
+    </form>
+</div>
+</div>
+  
+
+<div id="africa-animals-container" class="continent-container" style="display: none">
+
+    <div class="animals-heading" id="africa-img">
+        <h1 class="back-to-home"><i class="fas fa-arrow-left"></i></h1>
+        <h1 class="continent-title">Africa!</h1>
+    </div>
+
+<div class="grid-container">
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/lion.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Lion</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Lion</h2>
+            <p>Lions are the second largest big cat species in the world, and are very social compared to other cats, like tigers. They can run up to 50 miles per hour and their roar can be heard up to five miles away. Male lions are very recognizable due to the large furry main that wraps around their head and neck area.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/elephant.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Elephant</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Elephant</h2>
+            <p>The largest land animal in the world, elephans live in families called herds and are known for their large trunks, ears, and tusks. They spend 12 to 18 hours per day eating! They also love their time in the water! And are often found playing in rivers.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/rhino.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Rhino</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Rhino</h2>
+            <p>Though rhinos are found in different parts of the world, the kinds native to africa are called the Black Rhino and the White Rhino. They eat grass and plants and are very recognizable because of the large horn on their nose. In fact, the word "rhinoceros" means "nose horn". </p>
+           <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/ostrich.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Ostrich</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Ostrich</h2>
+            <p>The ostrich is the world's largest bird. It has a long flexible neck and a very small head. It has a big bulky body covered with feathers. Even though it has all these feathers, it still cannot fly! However, it can run up to 70 miles per hour and cover five meters in a single stride! </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/giraffe.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Giraffe</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Giraffe</h2>
+            <p>Known by its very long neck, the giraffe is the world's tallest land animal.They only eat plants. Their long neck and tongue allow them to reach food that is way up in trees! Giraffes are very social and typically travel in groups of up to fifteen giraffes called "towers". Males often hit their necks and heads together to see who is stronger.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/crocodile.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Crocodile</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Crocodile</h2>
+            <p>Known as the Nile crocodile in Africa, it is the largest and heaviest reptile. An adult male is about 16 feet long and weighs between 500 and 1200 pounds! They are predators, which means they hunt other animals. They are also very good at hiding and sneaking up on their food, which may explain why they have been around for so long!</p>
+            <h2 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h2> 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div id="antarctica-animals-container" class="continent-container" style="display: none">
+
+    <div class="animals-heading" id="antarctica-img">
+        <h1 class="back-to-home" id="antarctica-back-arrow"><i class="fas fa-arrow-left"></i></h1>
+        <h1 class="continent-title" id="antarctica-welcome">Antarctica!</h1>
+    </div>
+
+<div class="grid-container">
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/penguin.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h>
+            <h1 class="name">Penguin</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Penguin</h2>
+            <p>Though they are birds, penguins cannot fly. Instead, they have wing like limbs they use for flippers to help swim. They spend half their time on land and the other half in water. Incredibly, they can spend about 20 minutes under water at a time! They eat other fish and other water animal life, and  often huddle together to keep warm.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/orca.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Orca</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Orca</h2>
+            <p>Orcas are black and white 6000 pound hunting machines! They live between fifty and eighty years in the wild. They need alot of food to keep them going. So they may eat around 500 pounds of food per day. They hunt in groups and work together to capture their food. A common way of hunting is to capture a seal by bumping it off the sheet of ice it sits on.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/seal.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Seal</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Seal</h2>
+            <p>Seals are truly made for swimming. They sometimes need to travel hundreds of miles to find food. Amazingly, they can dive very deep underwater and stayl there for up to two hours without coming up for air. They have a thick layer of fat called blubber to keep them warm in the very cold environment.</p>
+           <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/snow-petrel.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Snow Petrel</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Snow Petrel</h2>
+            <p>The snow petrel is one of the few bird species that only live in Antarctica. They eat mainly fish and mollusks, diving quickly to catpure fish swimming near the top of the water. They can fly up to 40 kilometers per hour and live up to twenty years in the wild. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/blue-eyed-shag.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Blue Eyed Shag</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Blue Eyed Shag</h2>
+            <p>The Blue Eyed Shag is the only bird in Antarctica to keep a nest the whole year. You might say it likes to stay home! Sailers or sea explorers were happy to see the shag because they knew land was near. To catch fish and other food, they will dive over 25 meters below the water and are able to stay under about four minutes. There can be hundreds of them at a time going fishing together! </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/wandering-albatross.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Albatross</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Wandering Albatross</h2>
+            <p>With a wing span of 10 feet, the Wandering Albatross has the longest wing span of any bird on the planet. Truly, a claim to fame! Why wandering? This bird takes fishing trips of 10 to 20 days and can cover 10,000 kilometers using very little effort. Their huge wingspan allows the wind to carry them rathern than a lot of flapping. Their babies are born large. It only takes 1 year for a new born Albatross to be fully grown.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div id="asia-animals-container" class="continent-container" style="display: none">
+
+    <div class="animals-heading" id="asia-img">
+        <h1 class="back-to-home"><i class="fas fa-arrow-left"></i></h1>
+        <h1 class="continent-title">Asia!</h1>
+    </div>
+
+<div class="grid-container">
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/panda.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h>
+            <h1 class="name">Panda</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Panda</h2>
+            <p>The giant panda is found in China. There are less than 1,900 left in the world, which means there is a real danger than these pandas could go away forever. It has a very distinct black and white coat of fur with black patchs of fur around its eyes. The main thing they eat is bamboo. And they eat alot! Around 22 pounds a day! An adult male can weigh around 330 pounds. But even so, they are really good climbers, often found eating and relaxing in trees. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/tiger.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Bengal Tiger</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Bengal Tiger</h2>
+            <p>The bengal tiger is found mainly in India, though it is in other parts of asia too! These huge cats are carnivores, which means they only eat other animals, such as wild pigs, antelope, and buffalo. They usually hunt alone at night for food and eat up to 60 pounds of meat a day! Just like no one else has fingerprints like yours, no two tigers have the same stripes. Each tiger has its own special stripe pattern. Like the panda, we have been losing tigers in large numbers. They are in danger of dissappearing. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/cobra.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">King Cobra</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>King Cobra</h2>
+            <p>The king Cobra is the longest poisounous snake in the world, growing to between 13 and 18 feet. They live in Southeast Asia, inlcuding parts of India. What makes them so dangerous is the amount of poison they can give in a single bite. One bite could kill an elephant or up to 20 grown men! It is the only snake that makes a nest for its eggs. The mother will stay with the eggs until they hatch. The only animal that is a threat to the King Cobra is the mongoose, because it is immune to the venom.</p>
+           <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/orangutan.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Orangutan</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Orangutan</h2>
+            <p>Orangutans are made to climb! These red haired apes have very long arms and hands that shaped to grab brances. They spend a lot of time in trees eating and relaxing. Orangutans even sleep in nests high in trees. This makes it hard for leopards or other hunters to get them. Unlike other apes, orangutans don't have much group time. Females usually have a baby or two with her, but males like to be alone. They can be very loud when they want too, being heard a few miles away. Sadly, they are also in danger of dissappearing.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/tapir.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Asian Tapir</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Asian Tapir</h2>
+            <p>Found in Malaysia, the asian Tapir is a uniquely shaped mammal, having a large white patch from its shoulders to its rear. They usually weigh between 500 and 700 pounds, though can weigh over 1000 pounds. They can't see well, but can smell and hear very well! They eat only plants and spend a lot of time moving slowly through the forest eating and smelling for other creatures. If it must, a tapir can run fast and use its powerful jaws and sharp teeth to defend itself. Because of this and because of their size, the Tapir has few predators.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/binturong.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Binturong</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Binturong</h2>
+            <p>This 40 pound mammal looks like a cat and bear combo. Even stranger is the Binturong's scent. It smells like buttered popcorn. Yes, buttered popcorn! It spends a lot of time at top of trees, and uses its very long tail to grap limbs and move about. They eat small animals, such as birds. But also, love to eat fruit and insects. They are nocturnal animals, which means they do most of their food searching and other moving around at night.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div id="australia-animals-container" class="continent-container" style="display: none">
+
+    <div class="animals-heading" id="australia-img">
+        <h1 class="back-to-home" id="australia-back-arrow"><i class="fas fa-arrow-left"></i></h1>
+        <h1 class="continent-title" id="australia-welcome">Australia!</h1>
+    </div>
+
+<div class="grid-container">
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/kangaroo.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h>
+            <h1 class="name">Kangaroo</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Kangaroo</h2>
+            <p>With short front legs, powerful back legs, huge back feet and a strong tail, kangaroos are made for jumping! Mother kangaroos have pouches on the front of their body for carrying their baby. The baby will get inside the pouch right after birth and stay in their for about 8 months, until it's ready to jump on its own. They are quite fast, traveling at between 20 to 25 miles an hour usually. But they can get up to 40 miles an hour! Male kangaroos actually box each other to see who is the toughest.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/tasmanian-devil.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Tasmanian Devil</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Tasmanian Devil</h2>
+            <p>Only found on Tazmania, an island off the Australian Coast, the tazmanian devil is about the size of a small dog. What it lacks in size, it makes up in fight. With very sharp teeth and a strong jaw, it delivers one of the most powerful bites of any mammal on earth. They only eat other animals, small prey and dead animals. When provoked they will jump at the attacker often spinning in circles, shrieking and howling, much like their famous cartoon character.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/koala.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Koala</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Koala</h2>
+            <p>Though often called "Koala Bears", the koala is not a bear. It is a marcupial, meaning it's babies are born not fully developed and must be developed usually in a pouch on their mother. They are usually out at night, not as much in the day. Most of their water comes from leaves, so they don't drink much water, except during dry times. After about six months, the young koala will come out of its mother's pouch and ride on her back for another six months, until it is ready to climb on its own. </p>
+           <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/platypus.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Platypus</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Platypus</h2>
+            <p>Truly a unique creature! The platypus is a mammal that lays eggs, has a beak like a duck, and a beaver like tail. They close their eyes and ears when diving under water, so their bills are able to detect the electricity given off by prey. When it finds food under water, it stores it in a pouch inside its mouth until it comes back to the surface, only then does it eat. They have venom in their back ankles that can be used on prey.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/box-jelly-fish.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Box Jellfish</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Box Jellyfish</h2>
+            <p>Unlike other jellyfish that can only float, these guys can swim! Called 'box' because of the box shape of their bell, they are the most poisonous water animal in their world. They have up to 15 tenticles that grow from each corner. The tenticles grow up to 10 feet. Each tenticle has 5,000 stinging cells that fire when detecting a chemical on the surface of their prey. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/great-white.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Great White</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Great White</h2>
+            <p>The largest predator fish on the planet is the great white shark, though it is located throughout the world's oceans, Australia has many off the coast. They have about 300 razor sharp teeth and a powerful bite! They are grey on top but white on bottom. Sea lions, seals, and small whales make up the main diet of adult great whites. Their sense of smell is so strong that they can smell a colony of seals two miles away! And can smell one drop of blood in 26 gallons of water!</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+
+<div id="europe-animals-container" class="continent-container" style="display: none">
+
+    <div class="animals-heading" id="europe-img">
+        <h1 class="back-to-home" id="europe-back-arrow"><i class="fas fa-arrow-left"></i></h1>
+        <h1 class="continent-title" id="europe-welcome">Europe!</h1>
+    </div>
+
+<div class="grid-container">
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/reindeer.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h>
+            <h1 class="name">Reindeer</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Reindeer</h2>
+            <p>Unlike every other kind of deer, even female reindeer grow antlers! Like our fingerprints, no two antlers are alike. They live up to 15 years in the wild. Their favorite food is a kind of fungi called 'lichen', which is found in open spaces of land. Reindeer spend a lot of their lives in the snow, so their hooves are good for walking on soft surfaces and their fur traps heat very well. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/eurasian-lynx.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Eurasian Lynx</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Eurasian Lynx</h2>
+            <p>The Eurasian Lynx is the third largest predator in Europe, behind the wolf and brown bear. It is very active early in the morning and right at dark time. But during most of the day and night, it will be found lying in thickets or trees that are safe for hiding. They only eat other animals, from birds to deer.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/eurasian-wolf.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Eurasian Wolf</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Eurasian Wolf</h2>
+            <p>The largest wolf outside of North America, the Eurasian wolf is a very social animal, living and hunting in groups called 'packs'. It also protects its territory aggresively. The leading cause of natural death among the wolf is fighting over territory.Wolves are known for their long distint 'howl'. This howl is to bring the pack together and warn other packs to stay away.</p>
+           <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/chamois.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Chamois</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Chamois</h2>
+            <p>The chamois is a kind of goat-antelope, perfectly suited for life in the alps mountain ranges and meadows. Their hooves help them to move around on very rocky, slippery surfaces. They have short, mostly straight horns that hook at the top. They announce danger by stomping their feet and whistling, and get away from danger by climbing to places that are hard for other animals to get too.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/wolverine.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Wolverine</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Wolverine</h2>
+            <p>Wolverines are the largest member of the weasel family. Known to be aggressive, fierce, and tough, they are not afraid to stand up to larger animals. They like to be alone, and are known to travel up to 15 miles in a day for food. They are good climbers and will often follow wolves to eat the leftovers of prey. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/puffin.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Puffin</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Puffin</h2>
+            <p>Only about 10 inches tall, the puffin spends most of its time out on the water, resting on waves if not swimming. Its beak color changes with the seasons! It is gray in Winter and bright orange in Spring. They are fast fliers! Flapping their wings about 400 times per minute and flying at 88 kilometers per hour.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div id="north-america-animals-container" class="continent-container" style="display: none">
+
+    <div class="animals-heading" id="north-america-img">
+        <h1 class="back-to-home" id="north-america-back-arrow"><i class="fas fa-arrow-left"></i></h1>
+        <h1 class="continent-title" id="north-america-welcome">North America!</h1>
+    </div>
+
+<div class="grid-container">
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/brown-bear.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h>
+            <h1 class="name">Brown Bear</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Brown Bear</h2>
+            <p>Commonly knows as the Grizzly, the adult brown bear weighs between 3 and 900 pounds, making it the second largest bear kind in the world. It loves fish, especially salmon. It will stand in or beside streams and rivers, fising with its paw or catching in its mouth. But they also eat anything from berries and knuts to deer and other small mammals. In the winter, they find or dig caves and sleep most of the season. Their heart rate slows to about 10 beats per minute. This is called "hibernation." </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/beaver.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Beaver</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Beaver</h2>
+            <p>The second largest rodent in the world, the American Beaver is only 1 of 2 living kinds of beaver in the world. They are stocky creatures with short legs, webbed feet, and flat tails. Beavers are well known for making dams, which are collections of limbs, leaves, twigs and mud that provide them and other animals with shelter and deep water to hide from predators. Their large front teeth never stop growing. The beaver is constantly chewing on wood, and this keep the teeth from growing out of control.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/moose.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Moose</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Moose</h2>
+            <p>The moose is the largest deer kind in the world. It can weigh as much as 1,300 pounds and have the largest antler spread in the world, of up to 6 feet. The antlers along can weigh up to 65 pounds and are used for self defense and fighting, usually over a lady moose! Their diet consists of tall grasses and shrubs, as well as wooded bark and pinecones. They love to swim. In the spring, they will swim through the water looking for food. </p>
+           <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/arctic-fox.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Arctic Fox</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Arctic Fox</h2>
+            <p>Living throughout the coldest parts of North America, the arctic fox is able live in temperatures below -30 degrees. Their fur gives them the best protection from the cold of any mammal on earth. They will bury their heads and legs under their body during the most extreme cold. The fox will eat most any small animal it finds. Their sense of smell and hearing is very strong. They can smell prey hiding under snow. So even if prey cannot be seen, they will pounce to capture it.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/gila-monster.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Gila Monster</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Gila Monster</h2>
+            <p>The Gila monster is the only poisonous lizard in the United States. Though it is called a "monster," the Gila usually weighs only a pound or few, but has been known to get to 5 pounds. It is not really dangerous for humans, but it uses its venom on prey such as small rodents, frogs, and birds. Most of their time is spent underground or in rocky shelters. In 2005, a drug made from the Gila's saliva was released that helps people with Diabetes.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/cougar.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Cougar</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Cougar</h2>
+            <p>The cougar goes by many names, including panther, mountain lion, and puma. It is a meat eater, usually feeding on deer, mice, rabbits, or other mammals. They can't smell well, but their hearing and vision is unbelievable, making them very good at finding prey. Their jumping abilities are incredible; being able to leap 18 feet from a sitting position. They also hide their prey, coming back to eat over several days. They don't roar, but make a loud scream. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<div id="south-america-animals-container" class="continent-container" style="display: none">
+
+    <div class="animals-heading" id="south-america-img">
+        <h1 class="back-to-home" id="south-america-back-arrow"><i class="fas fa-arrow-left"></i></h1>
+        <h1 class="continent-title" id="south-america-welcome">South America!</h1>
+    </div>
+
+<div class="grid-container">
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/sloth.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h>
+            <h1 class="name">Sloth</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Sloth</h2>
+            <p>The famous tree dwelling mammal featured in Disney's Zootopia, sloths are known to be one of the slowest moving animals on earth. What makes them so slow? Sloths have a 4 part stomach that very slowly digests the tough leaves they eat. It can take up to a month to digest a meal. With all this energy used for digestion, they have little energy to move around. Their tongue can extend to almost a foot long! and is very useful for collecting food. Their sharp claws help them climb and are their only defense against predators.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/jaguar.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Jaguar</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Jaguar</h2>
+            <p>This big cat is the largest cat in the americas. It is a swift hunter and will hide its prey in trees for safe keeping. Everything from deer, pigs, rodents and anacondas could be on the jag menu. Like tigers they are at home in dense rain forests and enjoy swimming. They live, roam, and hunt alone, only coming together to mate. Its bite is very powerful, even stronger than a lion. It is similar to the african leopard, but is larger and  has small spots inside the circles of it's fur. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1>
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/anaconda.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Anaconda</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Anaconda</h2>
+            <p>Though a python can grow longer, the South American Anaconda is the heaviest and thickest of any snake in the world, weighing up to 550 pounds! It will eat any animal it can catch, from small rodents to larger animals like deer and capybara. It squeezes its prey, rather than giving them venom. Its flexible jaw and throat muscles allow it to eat animals whole, without chewing. After a large meal, it may not eat for weeks. Unlike many snakes, Anacondas do not lay eggs, but give birth to live young. </p>
+           <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/piranha.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Piranha</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Piranha</h2>
+            <p>On average, it is only 8 to 10 inches long. But this fish packs a bite! The piranha, especially the most famous "red belly piranha" has razor sharp teeth and fierce biting power. Especially in shallow water, these fish swim and hunt in groups of up to 100 called "shoals". These shoals are useful for hunting, but are also important for protection against predators. Though piranha can kill larger animals in groups, it is much more common for them to eat animals their size or slightly larger. </p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="./Images/pink-river-dolphin.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Boto</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Boto</h2>
+            <p>The boto is the largest of the four kinds of amazon river dolphin. When the amazon floods during the rainy season, the waters overtake many of the trees. The boto has no problem navigating its way through the flooded forest. It can bend its body in crazy ways to make it's way through the environment. The long snout comes in handy for checking the river bed for food or darting through branches for small fish. Males can become a  distinct pink color. This pink color makes them attractive to female botos.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+
+<div class="card middle">
+    <div class="front">
+        <img src="../Animal App/Images/galapagos-tortoise.jpg">
+        <div class='front-bottom-content'>
+            <h1 class="audio"><i class="far fa-play-circle"></i></h1>
+            <h1 class="name">Tortoise</h1>
+            <h2 class="about"><i class="fas fa-book"></i></h2>
+        </div>
+    </div>
+    <div class="back">
+        <div class="back-content middle">
+            <h2>Tortoise</h2>
+            <p>18 islands off the coast Ecuador make up the Galapagos Islands. They were named after the tortoise that lives there, the giant galapagos tortoise. This tortoise has staying power! It is the largest tortoise in the world with some reaching over 5 feet in length and weiging 550 pounds! They can also live to over 100 years old. They lead very easy lives, grazing on grass and other plant life, and sleeping around 16 hours a day. They digest very slowly and have water storage inside them, so they can go a year without eating or drinking if needed.</p>
+            <h1 class="back-arrows"><i class="fas fa-long-arrow-alt-left"></i></h1> 
+        </div>
+    </div>
+</div>
+</div>
+</div>
+
+<script src="Animals.js"></script>
+</body>
+
+    
+
+</html>
