@@ -86,6 +86,7 @@ function showAndHidePages(buttonIndex){
         if(index === buttonIndex){
         window.setTimeout(() => {
             container.style.display = 'block';
+            window.scrollTo(0,0);
             homePage.style.display = 'none';
         },1500)}
 
