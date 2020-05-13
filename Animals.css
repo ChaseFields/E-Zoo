@@ -111,7 +111,8 @@ option{
 
 #africa-img{
     background: url('./Images/giraffe-pattern.jpg');
-    background-size: 30%, 100%;
+    background-size: 20%, 100%;
+    
     
 }
 
@@ -224,7 +225,6 @@ option{
     display: flex;
     flex-direction: column;
     margin-right: 4%;
-    position: relative;
 }
 
 #input-fields, #message{
@@ -263,7 +263,8 @@ option{
 
 #contact-home-button{
     position: absolute;
-    top: 0;
+    top: 7%;
+    right: 10%;
 }
 
 
@@ -346,7 +347,6 @@ option{
 .front,.back{
     width: 100%;
     height: 100%;
-    
     backface-visibility: hidden;
     position: absolute;
     transition: transform .6s linear;
